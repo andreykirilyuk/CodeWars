@@ -10,3 +10,5 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
     let rangeLeft = Number(mpg*fuelLeft)
     return rangeLeft >= distanceToPump
   };
+
+//can also solve by dividing the distance to pump by fuel left & mpg

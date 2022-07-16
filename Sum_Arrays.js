@@ -5,3 +5,5 @@
 function sum (numbers) {
     return numbers.reduce((acc,c) => acc + c, 0)
 };
+
+//simple reduction using accumulator and starting at 0

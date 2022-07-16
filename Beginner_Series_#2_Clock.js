@@ -20,3 +20,5 @@ function past(h, m, s){
     let result = (h*3600*millisecond)+(m*60*millisecond)+(s*millisecond)
     return result
   }
+
+//can shorten multiplication but this is readable using millisecond as variable

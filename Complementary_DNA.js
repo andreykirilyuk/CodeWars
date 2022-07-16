@@ -29,3 +29,5 @@ function DNAStrand(dna){
     let result = dnaArr.join('')
     return result
     }
+
+//can also do this with object having ATCG as keys and the replacements as values

@@ -12,3 +12,5 @@ function squareDigits(num){
   })
   return Number(arr.join(''))
 }
+
+//Solved by changing nums to string, then mapping and converting back to number.
