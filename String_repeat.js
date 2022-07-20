@@ -14,3 +14,8 @@ function repeatStr (n, s) {
   }
 
 //set up an empty string placeholder, use for loop to concatenate.
+
+//easier answer would be to use repeat method:
+// function repeatStr (n, s) {
+//     return s.repeat(n);
+// }
