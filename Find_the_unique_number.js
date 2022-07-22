@@ -30,7 +30,7 @@ function findUniq(arr) {
 //first check the starting and last values against the next & previous values respectively, then
 //if those don't pass we only need to check the middle values in array for uniqueness.
 
-//a much simpler solution would be to simple use the find method for a value where it's first index
+//a much simpler solution would be to simply use the find method for a value where it's first index
 //is strictly equal to it's last index.
 function findUniq(arr) {
     return arr.find(n => arr.indexOf(n) === arr.lastIndexOf(n));
