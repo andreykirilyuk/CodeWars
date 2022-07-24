@@ -24,3 +24,16 @@ function duplicateEncode(word){
 
 //have to push the replacements to a new array, otherwise the conditional would not test true once
 //values start to replace. use the indexOf === lastIndexOf to check for duplicates.
+
+//cleaner solution:
+function duplicateEncode(word){
+    return word
+      .toLowerCase()
+      .split('')
+      .map((x, i, a) => {
+        return a.indexOf(x) == a.lastIndexOf(x) ? '(' : ')'
+      })
+      .join('');
+  }
+
+//return the lowerCase().split('').map() of the word with ternary check of replacement, then join back to string.
