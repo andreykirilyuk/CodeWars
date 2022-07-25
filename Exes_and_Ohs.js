@@ -15,3 +15,9 @@ function XO(str) {
     return temp.filter((x) => x === 'x').length === temp.filter((x) => x === 'o').length
 }
 //convert to array, then filter out the letters we're checking and compare the length of return
+
+
+//can also use .split('x') & .split('o') to make it a one-liner, clever solution:
+function XO(str) {
+    return str.toLowerCase().split('x').length === str.toLowerCase().split('o').length;
+}
