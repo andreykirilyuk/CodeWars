@@ -14,3 +14,4 @@ function XO(str) {
     let temp = Array.from(lower)
     return temp.filter((x) => x === 'x').length === temp.filter((x) => x === 'o').length
 }
+//convert to array, then filter out the letters we're checking and compare the length of return
