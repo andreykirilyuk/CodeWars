@@ -5,3 +5,9 @@
 
 // "I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]
 
+//Answer
+function stringToArray(string){
+    return string.split(' ')
+   }
+
+//split the words based on spaces between them.
