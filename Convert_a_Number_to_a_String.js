@@ -7,3 +7,10 @@
 // 999  --> "999"
 // -100 --> "-100"
 
+//Answer
+function numberToString(num) {
+    return String(num)
+  }
+
+
+//you can also do num.toString()
