@@ -13,3 +13,12 @@ function addBinary(a,b) {
     let number = a+b
     return number.toString(2)
    }
+
+/* toString([radix]) returns a string value in a specified radix, letting us
+convert our number sum to a binary string when we use radix 2.
+*/
+
+//Alternatively can make it a one-liner with:
+function addBinary(a,b){
+    return (a+b).toString(2)
+}
