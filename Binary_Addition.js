@@ -8,3 +8,8 @@
  5, 9 --> "1110" (5 + 9 = 14 in decimal or 1110 in binary)
 */
 
+//Answer
+function addBinary(a,b) {
+    let number = a+b
+    return number.toString(2)
+   }
