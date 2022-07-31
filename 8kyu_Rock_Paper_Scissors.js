@@ -19,3 +19,5 @@ const rps = (p1, p2) => {
      return 'Player 2 won!' 
     }
   };
+
+//do simple check for draw equivalence, then check p1 win conditions, else return p2 won.
