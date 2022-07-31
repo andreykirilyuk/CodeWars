@@ -21,3 +21,11 @@ const rps = (p1, p2) => {
   };
 
 //do simple check for draw equivalence, then check p1 win conditions, else return p2 won.
+
+//another clever answer using regex .test method(not a fan of regex):
+const rps = (p1, p2) => {
+    if(p1 === p2) {
+      return 'Draw!'
+    }; 
+    return `Player ${/rockscissors|scissorspaper|paperrock/.test(p1+p2)? 1 : 2} won!`;
+  }
