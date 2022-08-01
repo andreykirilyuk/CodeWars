@@ -6,3 +6,13 @@ Examples (Input -> Output):
 * "1234!_ "     -> "11223344!!__  "
 Good Luck!
 */
+
+//Answer
+function doubleChar(str) {
+    let result = []
+    for(let i = 0; i < str.length; i++){
+      result.push(str[i]+str[i])
+    }
+    return result.join('')
+  }
+//push 2 instances of the character to an array then join it
