@@ -16,3 +16,8 @@ function doubleChar(str) {
     return result.join('')
   }
 //push 2 instances of the character to an array then join it
+
+//alternate one line answer using map method to double the chars
+function doubleChar(str){
+    return str.split('').map(x => x + x).join('')
+}
