@@ -26,3 +26,9 @@ function openOrSenior(data){
 /* we know there's only 2 values in each nested array, so can manually check the values and push to 
 a temporary array Senior/Open
 */
+
+//simpler one line solution using mapping:
+function openOrSenior(data){
+    return data.map(([age,handicap]) => age > 54 && handicap > 7 ? 'Senior' : 'Open')
+  }
+//use the age and handicap params of nested arrays and ternary check them
