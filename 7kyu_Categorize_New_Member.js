@@ -12,3 +12,17 @@ Example
 input =  [[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]]
 output = ["Open", "Open", "Senior", "Open", "Open", "Senior"]
 */
+
+//Answer
+function openOrSenior(data){
+    let temp = []
+      for(let i = 0; i < data.length; i++){
+        if(data[i][0] >= 55 && data[i][1] > 7){
+          temp.push('Senior')
+        }else temp.push('Open')
+      }
+    return temp
+  }
+/* we know there's only 2 values in each nested array, so can manually check the values and push to 
+a temporary array Senior/Open
+*/
