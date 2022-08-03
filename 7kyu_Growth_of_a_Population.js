@@ -34,3 +34,17 @@ function nbYear(p0, percent, aug, p) {
     return years
 }
 //have to use a for loop not a while loop here and floor the integer or else it doesn't pass for 1 test.
+
+//Alternate answer
+function nbYear(p0, percent, aug, p, years = 0) {
+    return p0 >= p
+      ? years
+      : nbYear(
+          Math.floor(p0 + p0 * (percent / 100)) + aug,
+          percent,
+          aug,
+          p,
+          years + 1
+        );
+  }
+//this isn't any shorter but a cool recursive loop.
