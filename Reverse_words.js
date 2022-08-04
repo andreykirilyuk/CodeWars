@@ -16,3 +16,12 @@ function reverseWords(str) {
   }
 
 //do a split and reverse looping through the array, just being careful with the split parameters
+
+//alternate answer with map function:
+function reverseWords(str) {
+    let split = str.split(' ').map(function(word){
+      return word.split('').reverse().join('')
+    }).join(' ')
+    return split
+  }
+//this is cleaner just mappingthe splitting and reversing rather than using a for loop.
