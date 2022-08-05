@@ -15,3 +15,5 @@ Examples
 function order(words){
     return words.split(' ').sort((a,b) => a.match(/\d/) - b.match(/\d/)).join(' ')
   }
+
+//order the words using sort, checking for digits with match \d regex
