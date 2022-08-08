@@ -8,3 +8,5 @@ Given a non-empty array of integers, return the result of multiplying the values
 function grow(x){
     return x.reduce((a,b) => a*b,1)
   }
+
+//because it's a multiplication reduction make sure you set the starting value to 1 not 0
