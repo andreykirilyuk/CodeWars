@@ -19,3 +19,25 @@ Dog Years
 +9 dog years for second year
 +5 dog years for each year after that
 */
+
+//Answer
+var humanYearsCatYearsDogYears = function(humanYears) {
+    let age = humanYears
+    let catYears = 0
+    let dogYears = 0
+    for(let i = 1; i <= age; i++){
+      if(i == 1){
+        catYears = 15
+        dogYears = 15
+      }else if(i == 2){
+        catYears = 24
+        dogYears = 24
+      }else {
+        catYears += 4
+        dogYears += 5
+      } 
+    }
+    return [age,catYears,dogYears]
+  }
+
+//only the ages past 2 are different, the rest you can hardcode even though its not best practice.
