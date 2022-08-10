@@ -15,3 +15,5 @@ Note: keep the original order of the names in the output.
 function friend(friends){
     return friends.filter((x) => x.length == 4)
   }
+
+//simple filter, checking for values in array to be a length of 4
