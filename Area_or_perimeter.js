@@ -15,3 +15,8 @@ const areaOrPerimeter = function(l , w) {
       return Math.pow(l,2)
     }else return (l+w)*2
    };
+
+//can also use a ternary operator
+const areaOrPerimeter = function(l,w){
+    return l === w ? l*w : 2*(l+w)
+}
