@@ -15,3 +15,9 @@ function feast(beast, dish) {
     return firstLetterBeast === firstLetterDish && lastLetterBeast === lastLetterDish
    }
 //setting up some variables for readability, then simple comparison check
+
+//alternate answer
+function feast(beast, dish) {
+    return beast[0] === dish[0] && beast.slice(-1) === dish.slice(-1)
+   }
+//can make it a one-liner without variables, using slice(-1) to get the last letter from each string
