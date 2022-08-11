@@ -13,3 +13,8 @@ A few cases:
 (4, 1, 4)     ->  true
 (15, -5, 3)   ->  true
 */
+
+//Answer
+function isDivideBy(number, a, b) {
+    return number % a === 0 && number % b === 0
+  }
