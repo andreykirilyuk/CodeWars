@@ -5,3 +5,13 @@ Write a function feast that takes the animal's name and dish as arguments and re
 
 Assume that beast and dish are always lowercase strings, and that each has at least two letters. beast and dish may contain hyphens and spaces, but these will not appear at the beginning or end of the string. They will not contain numerals.
 */
+
+//Answer
+function feast(beast, dish) {
+    let firstLetterBeast = beast[0]
+    let lastLetterBeast = beast[beast.length-1]
+    let firstLetterDish = dish[0]
+    let lastLetterDish = dish[dish.length-1]
+    return firstLetterBeast === firstLetterDish && lastLetterBeast === lastLetterDish
+   }
+//setting up some variables for readability, then simple comparison check
