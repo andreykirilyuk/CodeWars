@@ -14,3 +14,36 @@ Together with the encryption function, you should also implement a decryption fu
 
 If the string S is an empty value or the integer N is not positive, return the first argument without changes.
 */
+
+//Answer
+function encrypt(text, n) {
+    console.log(text, n);
+    if (!text || n <= 0) return text; 
+    while (n--) {
+      let answer = '';
+      for (let i = 1; i < text.length; i += 2) {
+        answer += text[i];
+      }
+      for (let j = 0; j < text.length; j += 2) {
+        answer += text[j];
+      }
+      text = answer;
+    }
+    return text;
+  }
+  
+  function decrypt(encryptedText, n) {
+    if (!encryptedText || n <= 0) return encryptedText;
+    const answer = new Array(encryptedText.length);
+    while (n--) {
+      let j = 0;
+      for (let i = 1; i < answer.length; i += 2) {
+        answer[i] = encryptedText[j++];
+      }
+      for (let i = 0; i < answer.length; i += 2) {
+        answer[i] = encryptedText[j++];
+      }
+      encryptedText = answer.join('');
+    }
+    return encryptedText;
+  }
