@@ -23,3 +23,4 @@ function oddOrEven(array) {
     let result = array.reduce((a,b) => a+b,0)
     return result%2 === 0 ? 'even' : 'odd'
  }
+//could have done this as a oneliner but this is cleaner, simply reduce to a single number then ternary check for even or odd with modulus 2
