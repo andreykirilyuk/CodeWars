@@ -17,3 +17,9 @@ Input: [0, -1, -5]
 Output: "even"
 Have fun!
 */
+
+//Answer
+function oddOrEven(array) {
+    let result = array.reduce((a,b) => a+b,0)
+    return result%2 === 0 ? 'even' : 'odd'
+ }
