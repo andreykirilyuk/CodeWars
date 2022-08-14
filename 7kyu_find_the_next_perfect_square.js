@@ -17,3 +17,9 @@ function findNextSquare(sq) {
     // Return the next square if sq is a perfect square, -1 otherwise
     return Math.sqrt(sq) % 1 === 0 ? (Math.sqrt(sq) + 1) ** 2 : -1
   }
+
+/* 
+check for the square root of the input with modulus 1 to see if it's a whole integer,
+if it is then return the next square root by adding one to it and undo the square root by squaring it (**2),
+else return -1.
+*/
