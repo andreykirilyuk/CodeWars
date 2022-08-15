@@ -10,3 +10,5 @@ function findShort(s){
     let arr = s.split(' ').sort((a,b) => a.length-b.length)
     return arr[0].length
   }
+
+//sort the array of words by length, then return the length of the first index
