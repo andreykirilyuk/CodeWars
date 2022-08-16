@@ -17,3 +17,4 @@ function areYouPlayingBanjo(name) {
     }else plays = 'does not play'
     return `${name} ${plays} banjo`
 }
+//check for first letter in name, use that as the template literal for the return
