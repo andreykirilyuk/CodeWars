@@ -23,3 +23,4 @@ function areYouPlayingBanjo(name) {
 function areYouPlayingBanjo(name) {
     return name + (name[0].toLowerCase() == 'r' ? ' plays ' : ' does not play ') + 'banjo'
 }
+//concatenate the name with a ternary check for lowercase letter of name start + banjo
