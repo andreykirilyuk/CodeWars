@@ -8,3 +8,12 @@ name + " plays banjo"
 name + " does not play banjo"
 Names given are always valid strings.
 */
+
+//Answer
+function areYouPlayingBanjo(name) {
+    let plays = ''
+    if(name[0] == 'R' || name[0] == 'r'){
+      plays = 'plays'
+    }else plays = 'does not play'
+    return `${name} ${plays} banjo`
+}
