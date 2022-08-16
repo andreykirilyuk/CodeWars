@@ -18,3 +18,8 @@ function areYouPlayingBanjo(name) {
     return `${name} ${plays} banjo`
 }
 //check for first letter in name, use that as the template literal for the return
+
+//one liner
+function areYouPlayingBanjo(name) {
+    return name + (name[0].toLowerCase() == 'r' ? ' plays ' : ' does not play ') + 'banjo'
+}
