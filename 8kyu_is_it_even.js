@@ -14,3 +14,5 @@ Floats with decimal part non equal to zero are considered UNeven for this kata.
 function testEven(n) {
     return n%2 == 0
  }
+
+//return modulus 2 is equivalent to zero, else return false
