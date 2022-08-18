@@ -15,3 +15,5 @@ class SmallestIntegerFinder {
       return sorted[0]
     }
   }
+
+//sort the array, then return the first value in the array
