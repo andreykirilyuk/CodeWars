@@ -24,3 +24,5 @@ class SmallestIntegerFinder {
       return Math.min(...args)
     }
   }
+
+//spread the args, and return the minimum value using Math prototype method
