@@ -17,3 +17,10 @@ class SmallestIntegerFinder {
   }
 
 //sort the array, then return the first value in the array
+
+//alternate answer
+class SmallestIntegerFinder {
+    findSmallestInt(args) {
+      return Math.min(...args)
+    }
+  }
