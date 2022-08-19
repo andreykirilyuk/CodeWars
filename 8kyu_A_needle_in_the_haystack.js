@@ -19,3 +19,6 @@ function findNeedle(haystack) {
     let needle = haystack.indexOf('needle')
     return `found the needle at position ${needle}`
   }
+
+//use the indexOf method to find the index of the string 'needle', then set it to variable needle
+//return the expected string with template literal of `needle`
