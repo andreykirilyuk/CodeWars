@@ -10,3 +10,6 @@ You should not remove or add elements from/to the array.
 function twoSort(s) {
     return s.sort()[0].split('').join('***')
   }
+
+//the default sort function works here since it orders alphabetically & ascending, no numbers here,
+//then take the first index of the sort, split & join them for an easy one liner
