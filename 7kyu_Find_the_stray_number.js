@@ -21,3 +21,4 @@ function stray(numbers) {
 function stray(numbers) {
     return numbers.reduce((a,b) => a ^ b)
   }
+//checks for exclusive number using ^ (xor)
