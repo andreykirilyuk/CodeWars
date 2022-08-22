@@ -9,3 +9,9 @@ Examples
 [1, 1, 2] ==> 2
 [17, 17, 3, 17, 17, 17, 17] ==> 3
 */
+
+//Answer
+function stray(numbers) {
+    let filtered = numbers.filter((x,i,a) => a.indexOf(x) == a.lastIndexOf(x))
+    return +filtered
+  }
