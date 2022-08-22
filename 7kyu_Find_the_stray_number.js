@@ -16,3 +16,8 @@ function stray(numbers) {
     return +filtered
   }
 //filter the numbers by checking for unique values, where their index is also their last index, then return the value
+
+//Alternate answer
+function stray(numbers) {
+    return numbers.reduce((a,b) => a ^ b)
+  }
