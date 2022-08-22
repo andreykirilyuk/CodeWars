@@ -15,3 +15,4 @@ function stray(numbers) {
     let filtered = numbers.filter((x,i,a) => a.indexOf(x) == a.lastIndexOf(x))
     return +filtered
   }
+//filter the numbers by checking for unique values, where their index is also their last index, then return the value
