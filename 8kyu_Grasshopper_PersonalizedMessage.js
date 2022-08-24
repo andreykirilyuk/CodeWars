@@ -7,3 +7,8 @@ case	return
 name equals owner	'Hello boss'
 otherwise	'Hello guest'
 */
+
+//Answer
+function greet (name, owner) {
+    return 'Hello ' + (name === owner ? 'boss' : 'guest')
+  }
