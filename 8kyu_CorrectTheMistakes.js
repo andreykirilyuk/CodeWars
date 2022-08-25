@@ -16,3 +16,4 @@ function correct(string)
 {
   return string.split('0').join('O').split('5').join('S').split('1').join('I')
 }
+//simply split by wrong character and join by correct one for a one liner
