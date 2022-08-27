@@ -9,3 +9,4 @@ function hero(bullets, dragons){
     return bullets/2 >= dragons
   }
   
+//divide the bullets by 2 since thats how many a dragon takes to be defeated, then check if it's >= dragons
