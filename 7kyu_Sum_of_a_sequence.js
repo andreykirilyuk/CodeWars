@@ -21,3 +21,4 @@ const sequenceSum = (begin, end, step) => {
     }
     return result
   };
+// just have to increment the result by the step, only difficult part here is setting up the for loop correctly
