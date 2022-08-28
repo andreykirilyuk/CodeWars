@@ -13,3 +13,4 @@ var countSheep = function (num){
     }
     return string
   }
+//set starting string to '', then concatencate the template literal of i as a counter until inputed number
