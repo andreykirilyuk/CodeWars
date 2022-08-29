@@ -17,3 +17,4 @@ All arrays or lists will always have at least one element, so you don't need to 
 function minMax(arr){
     return [Math.min(...arr),Math.max(...arr)];
   }
+//just take the math min of the spread array & math max of the spread array
