@@ -12,3 +12,8 @@ Examples (Input --> Output)
 Remarks
 All arrays or lists will always have at least one element, so you don't need to check the length. Also, your function will always get an array or a list, you don't have to check for null, undefined or similar.
 */
+
+//Answer
+function minMax(arr){
+    return [Math.min(...arr),Math.max(...arr)];
+  }
