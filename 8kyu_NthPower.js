@@ -15,3 +15,4 @@ function index(array, n){
       return -1
     }else return Math.pow(array[n],n)
   }
+//if array[n] doesn't exist, return -1, else return the power of n of it
