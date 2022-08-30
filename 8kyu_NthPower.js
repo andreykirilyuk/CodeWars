@@ -21,3 +21,4 @@ function index(array, n){
 function index(array,n){
     return array[n]**n || -1
 }
+//**n is the shorthand for math.pow to n, then use or operator to else return -1
