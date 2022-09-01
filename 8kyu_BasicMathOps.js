@@ -10,3 +10,22 @@ Examples(Operator, value1, value2) --> output
 ('*', 5, 5) --> 25
 ('/', 49, 7) --> 7
 */
+
+//Answer
+function basicOp(operation, value1, value2)
+{
+  switch(operation){
+      case '+':
+        return value1+value2;
+        break;
+      case '-':
+        return value1-value2;
+        break;
+      case '*':
+        return value1*value2;
+        break;
+      case '/':
+        return value1/value2;
+        break;
+  }
+}
