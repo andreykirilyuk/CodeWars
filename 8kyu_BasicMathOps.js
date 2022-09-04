@@ -29,3 +29,5 @@ function basicOp(operation, value1, value2)
         break;
   }
 }
+
+//finally got to use a switch, return
