@@ -20,3 +20,4 @@ function isIsogram(str){
     }
     return true
   }
+//check if the character one index above the original string index is equal, if it is return false, else return true
