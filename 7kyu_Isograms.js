@@ -21,3 +21,9 @@ function isIsogram(str){
     return true
   }
 //check if the character one index above the original string index is equal, if it is return false, else return true
+
+//alternate answer
+function isIsogram(str){
+    return new Set(str.toUpperCase()).size == str.length;
+  }
+//values in the set may only appear once, we check the size of the set to the str.length to see if both only contain unique characters.
