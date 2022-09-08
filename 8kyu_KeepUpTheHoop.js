@@ -13,3 +13,5 @@ If he doesn't get 10 hoops, return the string "Keep at it until you get it".
 function hoopCount (n) {
     return n < 10 ? "Keep at it until you get it" : "Great, now move on to tricks"  
  }
+//Explained:
+//ternary check for n < 10 returning one string, else returning another
