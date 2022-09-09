@@ -16,3 +16,6 @@ function abbrevName(name){
     let split = name.toUpperCase().split(' ')
     return `${split[0][0]}.${split[1][0]}`
   }
+
+//Explained:
+//split the string at the space, make sure they're upper case for required abbreviation, then join together the first letter of the 0 index with first letter of 1 index in template literal form, or can use concatencation
