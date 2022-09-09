@@ -10,3 +10,9 @@ Sam Harris => S.H
 
 patrick feeney => P.F
 */
+
+//Answer
+function abbrevName(name){
+    let split = name.toUpperCase().split(' ')
+    return `${split[0][0]}.${split[1][0]}`
+  }
