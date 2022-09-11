@@ -12,3 +12,6 @@ move(3, 6) should equal 15
 function move (position, roll) {
     return position+(2*roll)
   }
+
+//Explained
+//just remember that the roll happens twice then it's a simple mathematical function
