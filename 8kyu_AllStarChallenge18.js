@@ -22,3 +22,9 @@ function strCount(str, letter){
     let filtered = split.filter((x) => x === letter)
     return filtered.length
   }
+
+//Explained
+/*
+split the string so you can perform array functions on it, then filter it where x  is matching the given letter,
+and return the length to see how many times the letter appears in the given string.
+*/
