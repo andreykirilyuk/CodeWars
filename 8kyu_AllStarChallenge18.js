@@ -33,3 +33,8 @@ and return the length to see how many times the letter appears in the given stri
 function strCount(str, letter){  
     return str.split(letter).length-1
   }
+
+//Explained
+/*
+you can just split the string by the letter, then return the length minus one for a simple one liner.
+*/
