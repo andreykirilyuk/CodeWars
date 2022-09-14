@@ -15,3 +15,10 @@ Notes:
 The first argument can be an empty string
 The second string argument will always be of length 1
 */
+
+//Answer
+function strCount(str, letter){  
+    let split = str.split('')
+    let filtered = split.filter((x) => x === letter)
+    return filtered.length
+  }
