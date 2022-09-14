@@ -28,3 +28,8 @@ function strCount(str, letter){
 split the string so you can perform array functions on it, then filter it where x  is matching the given letter,
 and return the length to see how many times the letter appears in the given string.
 */
+
+//Alternate Answer
+function strCount(str, letter){  
+    return str.split(letter).length-1
+  }
