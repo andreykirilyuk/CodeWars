@@ -11,3 +11,6 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
     let x = dadYearsOld - (sonYearsOld*2)
     return Math.abs(x)
   }
+
+//Explained
+//simple math problem, but make sure you take the absolute value using Math.abs as it may be in the future
