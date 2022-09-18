@@ -11,3 +11,6 @@ solution(null); // should return []
 function solution(nums){
     return nums ? nums.sort((a,b) => a-b) : []
   }
+
+//Explained
+//first check if nums isn't empty with ternary, if it's not empty then sort it using sort method, else return empty array
