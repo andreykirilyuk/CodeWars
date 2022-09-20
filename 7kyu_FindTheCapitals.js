@@ -17,3 +17,6 @@ var capitals = function (word) {
     }
     return result
   };
+
+//Explained
+//check if the index of string is equal to the uppercase of that index, if it is, push the index of it to an array
