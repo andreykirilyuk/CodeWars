@@ -17,3 +17,6 @@ Calculate the sum of the numbers in the nth row of this triangle (starting at in
 function rowSumOddNumbers(n) {
 	return Math.pow(n,3)
 }
+
+//Explained
+//simple workaround of doing all the work by realizing that it's just 3rd power
