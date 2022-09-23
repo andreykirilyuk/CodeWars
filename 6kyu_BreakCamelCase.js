@@ -6,3 +6,10 @@ Example
 "identifier"   =>  "identifier"
 ""             =>  ""
 */
+
+//Solution
+function solution(string) {
+    const regex = /([a-z])([A-Z])/g;
+    return string.replace(regex, '$1 $2'); 
+  }
+  
