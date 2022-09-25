@@ -12,4 +12,6 @@ function solution(string) {
     const regex = /([a-z])([A-Z])/g;
     return string.replace(regex, '$1 $2'); 
   }
-  
+
+//Explained
+//use the regex to replace the string with a space in the middle
