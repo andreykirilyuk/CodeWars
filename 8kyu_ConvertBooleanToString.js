@@ -8,3 +8,6 @@ Note: Only valid inputs will be given.
 function booleanToString(b){
     return b.toString()
   }
+
+//Explanation
+//use the toString method for a simple return conversion
