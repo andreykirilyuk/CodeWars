@@ -22,3 +22,6 @@ You can assume that all inputs are valid integers.
 function roundToNext5(n){
     return Math.ceil(n/5)*5
   }
+
+//Explained
+//we use the math ceil to get the rounded number base then multiply by 5 to round up
