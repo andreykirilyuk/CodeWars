@@ -25,3 +25,9 @@ function roundToNext5(n){
 
 //Explained
 //we use the math ceil to get the rounded number base then multiply by 5 to round up
+
+//you can also do it like this:
+function roundToNext5(n){
+    while(n%5) n++;
+    return n;
+  }
