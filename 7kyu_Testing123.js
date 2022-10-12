@@ -10,3 +10,8 @@ Examples: (Input --> Output)
 [] --> []
 ["a", "b", "c"] --> ["1: a", "2: b", "3: c"]
 */
+
+//Answer
+var number=function(array){
+    return array.map((n,i) => `${i + 1}: ${n}`)
+  }
