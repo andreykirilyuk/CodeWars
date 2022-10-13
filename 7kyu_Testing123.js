@@ -15,3 +15,6 @@ Examples: (Input --> Output)
 var number=function(array){
     return array.map((n,i) => `${i + 1}: ${n}`)
   }
+
+//Explained
+//we map the array so that each input returns a numbered string using template literals
