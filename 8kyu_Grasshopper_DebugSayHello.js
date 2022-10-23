@@ -11,3 +11,6 @@ Hello, Mr. Spock
 function sayHello(name) {
     return `Hello, ${name}`
   }
+
+//Explained
+//the original didn't have a template literal, now it does for the name input
