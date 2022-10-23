@@ -6,3 +6,8 @@ Example output:
 
 Hello, Mr. Spock
 */
+
+//Answer
+function sayHello(name) {
+    return `Hello, ${name}`
+  }
