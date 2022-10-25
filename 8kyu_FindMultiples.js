@@ -23,4 +23,8 @@ function findMultiples(integer, limit) {
     }
     return result
   }
+
+//Explained
+/*created an empty array to hold results, then used integer as starting point of the for loop, incrementing by integer + starting point
+until the starting point is less than or equal to the limit, then return the resulting array*/
   
