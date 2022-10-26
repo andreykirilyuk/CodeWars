@@ -24,3 +24,6 @@ Examples
 var isSquare = function(n){
     return Math.sqrt(n) % 1 == 0
   }
+
+//Explained
+//get the square root of the input, then check to see if it's an integer by checking if modulus 1 is equal to 0.
