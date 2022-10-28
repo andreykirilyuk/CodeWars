@@ -25,3 +25,7 @@ function howMuchILoveYou(nbPetals) {
       let petalsNum = nbPetals % 6
       return phrases[petalsNum]
   }
+
+//Explained
+/*put all the phrases in an array (off-set due to petals selector later, or can work around this by subtracting one
+    from the petals), and get the index of the array by doing modulus 6 of the input number.*/
