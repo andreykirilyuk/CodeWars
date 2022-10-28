@@ -13,3 +13,15 @@ When the last petal was torn there were cries of excitement, dreams, surging tho
 
 Your goal in this kata is to determine which phrase the girls would say at the last petal for a flower of a given number of petals. The number of petals is always greater than 0.
 */
+
+//Solved
+function howMuchILoveYou(nbPetals) {
+    let phrases = ['not at all',
+                  'I love you',
+                  'a little',
+                  'a lot',
+                  'passionately',
+                  'madly',]
+      let petalsNum = nbPetals % 6
+      return phrases[petalsNum]
+  }
