@@ -21,5 +21,5 @@ function expandedForm(num) {
 
 //Explained
 /*it's easier to manipulate the numbers in string form, where we can split & reverse them and use the positioning to 
-math.pow them by powers of 10 based on their index, then we filter the value to be above 0, and reverse to join
-them back together for the required syntax. */
+math.pow them by powers of 10 based on their index, then we filter the value to be above 0 to remove the 0's from
+higher value numbers, and reverse to join them back together for the required syntax. */
