@@ -17,3 +17,8 @@ function noBoringZeros(n) {
     if(n % 10 === 0) return noBoringZeros (n/10)
     else return n
   }
+
+//Explained
+/*instead of working on the input as a string and filtering, go for the math approach and recursively divide by 10 
+if the number is divisible by 10 with no remainder (modulus 10 === 0) until you get rid of all the zeroes at the end, 
+then return the fully divided number.*/
