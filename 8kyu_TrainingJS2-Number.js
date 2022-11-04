@@ -49,3 +49,6 @@ function equal5(){
       b =  v3; //set number value to b
   return a % b;
 }
+
+//Explained
+//simply plug in variables to make the declarations and functions work
