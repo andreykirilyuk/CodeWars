@@ -49,3 +49,7 @@ function getLength(arr){
     arr.pop()
     return arr
   }
+
+//Explained
+/*just have to remember array indexing, arr.length-1 for last array element, and that you can't return a push/pop have to perform
+the method then return it on next line.*/
