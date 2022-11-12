@@ -25,3 +25,9 @@ function trueOrFalse(val){
     if (!val)    return 'false';             
     else     return 'true';
   }
+
+//Explained
+//can use ternary operator to make this cleaner but problem specified if/else statement, simple boolean:
+function trueOrFalse(val){
+    return val ? 'true' : 'false'
+  }
