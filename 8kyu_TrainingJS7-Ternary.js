@@ -42,3 +42,8 @@ You can use if..else or ternary operator to complete it.
 When you have finished the work, click "Run Tests" to see if your code is working properly.
 
 In the end, click "Submit" to submit your code pass this kata.*/
+
+//Answer
+function saleHotdogs(n){
+  return n<5 ? 100*n : n<10 ? 95*n : 90*n
+}
