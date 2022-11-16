@@ -47,3 +47,6 @@ In the end, click "Submit" to submit your code pass this kata.*/
 function saleHotdogs(n){
   return n<5 ? 100*n : n<10 ? 95*n : 90*n
 }
+
+//Explained
+//honestly didn't know you could chain ternary operators together on one line sort of like a switch statement
