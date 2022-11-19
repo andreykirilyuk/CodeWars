@@ -91,3 +91,6 @@ function howManydays(month){
     }
     return days;
   }
+
+//Explained
+//didn't know that you could do multiple cases with just : after them until you show a return, which will be the same return for all previous cases. Also don't forget to put a variable into the switch parameter.
