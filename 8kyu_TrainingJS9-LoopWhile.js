@@ -50,3 +50,5 @@ You need to write a loop statement within the function that loops n times. Each 
 
 Finally, return the padded string.
 */
+
+//Solved
